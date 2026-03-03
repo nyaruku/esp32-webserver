@@ -10,8 +10,9 @@ namespace www {
                     <li>Gateway: <span>{{gateway}}</span></li>
                     <li>Netmask: <span>{{netmask}}</span></li>
                 </ul>
-                <div>
-                    <img src="{{logo}}" />
+                <div style="margin-bottom: 2rem;">
+                    <p>Registered Pages</p>
+                    {{pageMap}}
                 </div>
             </body>
         </html>
